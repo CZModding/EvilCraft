@@ -1,0 +1,16 @@
+[
+{
+  "modid": "evilcraft",
+  "name": "EvilCraft",
+  "description": "A mod based on the game SimpleCraft2: Biomes.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CZModding"],
+  "credits": "TheXFactor117Mods,for his amazing tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
