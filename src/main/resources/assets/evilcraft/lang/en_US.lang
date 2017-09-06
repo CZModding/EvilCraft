@@ -1,3 +1,6 @@
 item.soulYeti.name=Yeti Soul
 itemGroup.tabSouls=Souls
 tile.BlockRubyOre.name=Ruby Ore
+tile.BlockRubyBlock.name=Ruby Block
+itemGroup.tabBlocks= EvilCraft Blocks
+itemGroup.tabOres=EvilCraft Ores
