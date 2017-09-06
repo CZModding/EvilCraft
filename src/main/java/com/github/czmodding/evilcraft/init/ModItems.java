@@ -3,8 +3,10 @@ package com.github.czmodding.evilcraft.init;
 import com.github.czmodding.evilcraft.help.RegisterHelper;
 import com.github.czmodding.evilcraft.items.EvilCraftItems;
 import net.minecraft.item.Item;
-
-public class ModItems {
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+public final class ModItems {
+	public static ToolMaterial Ruby = EnumHelper.addToolMaterial("Ruby", 5, 2341, 14, 5, 24);
 	public static Item soulYeti = new EvilCraftItems().setUnlocalizedName("soulYeti");
 	public static void init()
     {RegisterHelper.registerItem(soulYeti);}

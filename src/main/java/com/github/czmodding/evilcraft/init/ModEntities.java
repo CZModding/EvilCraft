@@ -19,7 +19,7 @@ public class ModEntities {
 	}
 	
 	public static void generateSpawnEgg() {
-		EntityRegistry.registerEgg(EntityYeti.class, 2, 9);
+		EntityRegistry.registerEgg(EntityYeti.class, 250, 198);
 	}
 	
 	private static int entityID = 0;
