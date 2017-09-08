@@ -1,5 +1,8 @@
 package com.github.czmodding.evilcraft;
 
+import com.github.czmodding.evilcraft.init.ModBlocks;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -14,7 +17,9 @@ public class ClientProxy extends CommonProxy {
 
 	@Override
 	public void init(FMLInitializationEvent e) {
-		// TODO Auto-generated method stub
+        reg(ModBlocks.tutorialTileEntity);
+
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTutorial.class, new TileEntityTutorialRenderer());
 		super.init(e);
 	}
 

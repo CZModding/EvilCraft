@@ -19,7 +19,7 @@ public class BlockRubyOre extends Block{
 	private int most_quantity;
 	private int meta;
 
-	protected BlockRubyOre(String unlocalizedName, Material mat, Item drop, int meta, int least_quantity, int most_quantity) 
+	public BlockRubyOre(String unlocalizedName, Material mat, Item drop, int meta, int least_quantity, int most_quantity) 
 	
 	
 	{
