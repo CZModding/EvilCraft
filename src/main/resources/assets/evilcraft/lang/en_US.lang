@@ -1,6 +1,4 @@
-item.soulYeti.name=Yeti Soul
-itemGroup.tabSouls=Souls
-tile.BlockRubyOre.name=Ruby Ore
-tile.BlockRubyBlock.name=Ruby Block
-itemGroup.tabBlocks= EvilCraft Blocks
-itemGroup.tabOres=EvilCraft Ores
+< en_US.lang - English localization file for the mod >
+item.ruby.name=Ruby
+tile.rubyBlock.name=Ruby Block
+tile.rubyOre.name=Ruby Ore
